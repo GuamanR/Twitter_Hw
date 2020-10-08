@@ -21,10 +21,36 @@ div img .t_bird{
     margin-top: 200px;
 }
 .invert{
-    filter: invert(100);
+    filter: invert(100%);
 }
 .tweet_image{
     width: 10vw;
     height: 50px;
 
+}
+.bar_space{
+    padding-top: 20px;
+}
+.mid_col1{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    border-top: 0;
+
+}
+.prof_pic{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.wh{
+    padding: 10px 0px 10px 0px;
+
+}
+.wh span{
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    opacity: 50%;
+}
+.b_img{
+    filter: invert(100%) hue-rotate(30deg) saturate(100)
 }
